@@ -1,4 +1,4 @@
-# Spring plugins framework showcase: an example of promotion services
+# Spring Plugins demo: an example of promotion services
 
 Code under `oldway` and `newway` packages correspond to, respectively, the legacy ways of implementing business logic, and the new way of doing it with Spring plugins. Run `ApplicationV1` and `ApplicationV2` to see the difference.  
 
