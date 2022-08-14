@@ -1,8 +1,8 @@
-package vptech.checkout.newway;
+package dev.westerngun.newway;
 
-import vptech.checkout.domain.Group;
-import vptech.checkout.domain.User;
-import vptech.checkout.newway.serviceV2plugin.PromotionServiceV2Plugin;
+import dev.westerngun.domain.Group;
+import dev.westerngun.domain.User;
+import dev.westerngun.newway.serviceV2plugin.PromotionServiceV2Plugin;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @SpringBootApplication
 public class ApplicationV2 {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("vptech.checkout.newway");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("dev.westerngun.newway");
         PromotionServiceV2Plugin promotionServiceV2Plugin = context.getBean(PromotionServiceV2Plugin.class);
         User anyUser = new User();
         anyUser.setId("any member");

@@ -1,6 +1,6 @@
-package vptech.checkout.oldway.businessV1;
+package dev.westerngun.oldway.businessV1;
 
-import vptech.checkout.domain.User;
+import dev.westerngun.domain.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

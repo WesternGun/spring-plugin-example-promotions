@@ -1,7 +1,7 @@
-package vptech.checkout.oldway.serviceV1;
+package dev.westerngun.oldway.serviceV1;
 
-import vptech.checkout.oldway.businessV1.PromotionApplier;
-import vptech.checkout.domain.User;
+import dev.westerngun.oldway.businessV1.PromotionApplier;
+import dev.westerngun.domain.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

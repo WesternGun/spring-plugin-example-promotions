@@ -1,6 +1,6 @@
-package vptech.checkout.newway.businessV2plugin;
+package dev.westerngun.newway.businessV2plugin;
 
-import vptech.checkout.domain.User;
+import dev.westerngun.domain.User;
 import org.springframework.plugin.core.Plugin;
 
 import java.math.BigDecimal;

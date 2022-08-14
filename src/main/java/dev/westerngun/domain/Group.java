@@ -1,4 +1,4 @@
-package vptech.checkout.domain;
+package dev.westerngun.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

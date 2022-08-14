@@ -1,8 +1,8 @@
-package vptech.checkout.newway.config;
+package dev.westerngun.newway.config;
 
-import vptech.checkout.newway.businessV2plugin.PromotionApplierPlugin;
-import vptech.checkout.newway.businessV2plugin.PromotionApplierPluginAllMembers;
-import vptech.checkout.newway.businessV2plugin.PromotionApplierPluginNewMember;
+import dev.westerngun.newway.businessV2plugin.PromotionApplierPlugin;
+import dev.westerngun.newway.businessV2plugin.PromotionApplierPluginAllMembers;
+import dev.westerngun.newway.businessV2plugin.PromotionApplierPluginNewMember;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.plugin.core.config.EnablePluginRegistries;

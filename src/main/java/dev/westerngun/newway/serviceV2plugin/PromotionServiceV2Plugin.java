@@ -1,7 +1,7 @@
-package vptech.checkout.newway.serviceV2plugin;
+package dev.westerngun.newway.serviceV2plugin;
 
-import vptech.checkout.newway.businessV2plugin.PromotionApplierPlugin;
-import vptech.checkout.domain.User;
+import dev.westerngun.newway.businessV2plugin.PromotionApplierPlugin;
+import dev.westerngun.domain.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.plugin.core.PluginRegistry;
